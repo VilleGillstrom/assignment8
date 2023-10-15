@@ -2,8 +2,9 @@ package uitestingplayground;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import common.BasePage;
 
-public class ClassAttrPage extends BasePlaygroundPage {
+public class ClassAttrPage extends BasePage {
 
     private final Locator primaryButton;
 

@@ -2,9 +2,9 @@ package uitestingplayground;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
-import com.microsoft.playwright.options.AriaRole;
+import common.BasePage;
 
-public class ClickPage extends BasePlaygroundPage {
+public class ClickPage extends BasePage {
     public ClickPage(Page page) {
         super(page, "http://uitestingplayground.com/click");
     }

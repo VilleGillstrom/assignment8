@@ -2,10 +2,9 @@ package uitestingplayground;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import common.BasePage;
 
-import java.util.regex.Pattern;
-
-public class MouseOverPage extends BasePlaygroundPage {
+public class MouseOverPage extends BasePage {
     private final Locator clickMeLocator;
     private final Locator clickCountLocator;
 

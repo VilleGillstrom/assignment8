@@ -2,9 +2,9 @@ package uitestingplayground;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
-import com.microsoft.playwright.options.AriaRole;
+import common.BasePage;
 
-public class TextInputPage extends BasePlaygroundPage {
+public class TextInputPage extends BasePage {
     public TextInputPage(Page page) {
         super(page, "http://uitestingplayground.com/textinput");
     }

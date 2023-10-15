@@ -2,8 +2,9 @@ package uitestingplayground;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import common.BasePage;
 
-public class ClientSideDelayPage extends BasePlaygroundPage {
+public class ClientSideDelayPage extends BasePage {
     public ClientSideDelayPage(Page page) {
         super(page, "http://uitestingplayground.com/clientdelay");
     }

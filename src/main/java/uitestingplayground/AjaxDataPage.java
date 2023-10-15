@@ -2,8 +2,9 @@ package uitestingplayground;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import common.BasePage;
 
-public class AjaxDataPage extends BasePlaygroundPage {
+public class AjaxDataPage extends BasePage {
     public AjaxDataPage(Page page) {
         super(page, "http://uitestingplayground.com/ajax");
     }

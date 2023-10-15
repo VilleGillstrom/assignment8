@@ -1,7 +1,7 @@
 package uitestingplayground;
 
 import org.junit.jupiter.api.Test;
-import playwright.testbase.TestBase;
+import common.TestBase;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertEquals;

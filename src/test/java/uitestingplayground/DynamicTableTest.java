@@ -1,11 +1,7 @@
 package uitestingplayground;
 
-import com.microsoft.playwright.Locator;
 import org.junit.jupiter.api.Test;
-import playwright.testbase.TestBase;
-
-import java.util.Arrays;
-import java.util.List;
+import common.TestBase;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;

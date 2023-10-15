@@ -2,8 +2,9 @@ package uitestingplayground;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import common.BasePage;
 
-public class SampleAppPage extends BasePlaygroundPage {
+public class SampleAppPage extends BasePage {
     private final Locator userNameLocator;
     private final Locator passwordLocator;
     private final Locator loginStatusLocator;

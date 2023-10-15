@@ -3,11 +3,12 @@ package uitestingplayground;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
+import common.BasePage;
 
 import java.util.List;
 import java.util.stream.IntStream;
 
-public class DynamicTablePage extends BasePlaygroundPage {
+public class DynamicTablePage extends BasePage {
     public DynamicTablePage(Page page) {
         super(page, "http://uitestingplayground.com/dynamictable");
     }

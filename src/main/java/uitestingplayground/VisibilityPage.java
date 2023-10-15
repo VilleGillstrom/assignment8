@@ -2,8 +2,9 @@ package uitestingplayground;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import common.BasePage;
 
-public class VisibilityPage extends BasePlaygroundPage {
+public class VisibilityPage extends BasePage {
     public VisibilityPage(Page page) {
         super(page, "http://uitestingplayground.com/visibility");
     }

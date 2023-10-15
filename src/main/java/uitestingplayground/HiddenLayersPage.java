@@ -2,8 +2,9 @@ package uitestingplayground;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import common.BasePage;
 
-public class HiddenLayersPage extends BasePlaygroundPage {
+public class HiddenLayersPage extends BasePage {
 
     public HiddenLayersPage(Page page) {
         super(page, "http://uitestingplayground.com/hiddenlayers");

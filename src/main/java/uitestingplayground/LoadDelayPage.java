@@ -3,8 +3,9 @@ package uitestingplayground;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
+import common.BasePage;
 
-public class LoadDelayPage extends BasePlaygroundPage {
+public class LoadDelayPage extends BasePage {
     public LoadDelayPage(Page page) {
         super(page, "http://uitestingplayground.com/loaddelay");
     }

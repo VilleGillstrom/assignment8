@@ -3,8 +3,9 @@ package uitestingplayground;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
+import common.BasePage;
 
-public class NonBreakingSpacePage extends BasePlaygroundPage {
+public class NonBreakingSpacePage extends BasePage {
     private final Locator withSpaceLocator;
     private final Locator withoutSpaceLocator;
 

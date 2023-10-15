@@ -2,7 +2,7 @@ package uitestingplayground;
 
 import com.microsoft.playwright.Dialog;
 import org.junit.jupiter.api.Test;
-import playwright.testbase.TestBase;
+import common.TestBase;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Consumer;

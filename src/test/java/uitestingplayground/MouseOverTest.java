@@ -1,9 +1,7 @@
 package uitestingplayground;
 
-import com.microsoft.playwright.Locator;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.function.Executable;
-import playwright.testbase.TestBase;
+import common.TestBase;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertEquals;

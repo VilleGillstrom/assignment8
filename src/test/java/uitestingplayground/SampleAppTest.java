@@ -1,11 +1,8 @@
 package uitestingplayground;
 
-import com.microsoft.playwright.Locator;
+import common.TestBase;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.function.Executable;
-import playwright.testbase.TestBase;
 
-import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class SampleAppTest extends TestBase {

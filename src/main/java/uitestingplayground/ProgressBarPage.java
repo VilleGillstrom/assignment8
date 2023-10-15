@@ -2,8 +2,9 @@ package uitestingplayground;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import common.BasePage;
 
-public class ProgressBarPage extends BasePlaygroundPage {
+public class ProgressBarPage extends BasePage {
     public ProgressBarPage(Page page) {
         super(page, "http://uitestingplayground.com/progressbar");
     }

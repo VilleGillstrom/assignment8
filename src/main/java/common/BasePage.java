@@ -1,16 +1,15 @@
-package uitestingplayground;
+package common;
 
-import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 
-public abstract class BasePlaygroundPage {
+public abstract class BasePage {
 
     protected final Page page;
     protected final String url;
 
 
 
-    public BasePlaygroundPage(Page page, String url)
+    public BasePage(Page page, String url)
     {
         this.page = page;
         this.url = url;
