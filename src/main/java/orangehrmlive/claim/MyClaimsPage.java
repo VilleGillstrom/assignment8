@@ -5,8 +5,6 @@ import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
 import common.BasePage;
 
-import java.util.List;
-
 public class MyClaimsPage extends BasePage {
 
 

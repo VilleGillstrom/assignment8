@@ -1,9 +1,7 @@
 package uitestingplayground;
 
-import org.junit.jupiter.api.Test;
 import common.TestBase;
-
-import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
+import org.junit.jupiter.api.Test;
 
 class LoadDelayTest extends TestBase {
 

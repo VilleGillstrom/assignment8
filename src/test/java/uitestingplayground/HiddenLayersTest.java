@@ -1,11 +1,12 @@
 package uitestingplayground;
 
-import com.microsoft.playwright.*;
-import org.junit.jupiter.api.Test;
+import com.microsoft.playwright.Locator;
+import com.microsoft.playwright.TimeoutError;
 import common.TestBase;
+import org.junit.jupiter.api.Test;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class HiddenLayersTest extends TestBase {
     @Test

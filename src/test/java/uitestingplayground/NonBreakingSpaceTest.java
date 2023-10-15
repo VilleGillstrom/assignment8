@@ -1,8 +1,8 @@
 package uitestingplayground;
 
 import com.microsoft.playwright.TimeoutError;
-import org.junit.jupiter.api.Test;
 import common.TestBase;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertThrows;

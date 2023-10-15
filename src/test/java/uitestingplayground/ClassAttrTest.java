@@ -1,13 +1,12 @@
 package uitestingplayground;
 
 import com.microsoft.playwright.Dialog;
-import org.junit.jupiter.api.Test;
 import common.TestBase;
+import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Consumer;
 
-import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

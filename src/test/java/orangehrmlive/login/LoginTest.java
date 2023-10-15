@@ -2,10 +2,9 @@ package orangehrmlive.login;
 
 
 import com.microsoft.playwright.Locator;
-import orangehrmlive.login.LoginPage;
+import common.TestBase;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import common.TestBase;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
